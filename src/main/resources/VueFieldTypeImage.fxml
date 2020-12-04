@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="104.0" prefWidth="371.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label fx:id="label" alignment="CENTER" textAlignment="JUSTIFY" VBox.vgrow="ALWAYS">
+            <font>
+                <Font size="18.0" />
+            </font>
+            <VBox.margin>
+                <Insets left="170.0" />
+            </VBox.margin>
+        </Label>
+      <BorderPane prefHeight="58.0" prefWidth="371.0">
+         <center>
+            <ImageView fx:id="imageview" fitHeight="73.0" fitWidth="193.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+         </center>
+         <VBox.margin>
+            <Insets top="11.0" />
+         </VBox.margin>
+         <right>
+            <TextField fx:id="text" prefHeight="47.0" prefWidth="167.0" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+    </children>
+</VBox>

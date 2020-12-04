@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="104.0" prefWidth="371.0" style="-fx-background-color: #BB8FCE;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label fx:id="label" alignment="CENTER" textAlignment="JUSTIFY" VBox.vgrow="ALWAYS">
+            <font>
+                <Font size="18.0" />
+            </font>
+            <VBox.margin>
+                <Insets left="170.0" />
+            </VBox.margin>
+        </Label>
+        <TextField fx:id="latex" prefHeight="62.0" prefWidth="371.0" style="-fx-background-color: #E8DAEF;" VBox.vgrow="ALWAYS" />
+    </children>
+</VBox>
